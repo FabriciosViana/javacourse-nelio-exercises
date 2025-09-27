@@ -1,9 +1,9 @@
 package exFor;
-import java.util.Scanner;
+import utils.MyScanner;
 
 public class Ex02 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        MyScanner sc = new MyScanner();
         System.out.println("Digite o valor de N: ");
         int N = sc.nextInt();
         System.out.println("Digite o valor de x: ");

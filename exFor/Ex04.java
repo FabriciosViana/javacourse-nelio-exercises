@@ -1,11 +1,9 @@
 package exFor;
-import java.util.Locale;
-import java.util.Scanner;
+import utils.MyScanner;
 
 public class Ex04 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in).useLocale(Locale.US);
-
+        MyScanner sc = new MyScanner();
         int N = sc.nextInt();
 
         for(int i=1; i<=N; i++){
